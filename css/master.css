@@ -3114,4 +3114,82 @@ section.more {
       transition: .65s ease all; }
       section.more .titler .more:hover {
         background: white;
-        color: black; }
+        color: black;
+        cursor: pointer; }
+
+#modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */ }
+  #modal .box {
+    background: white;
+    border-radius: 10px;
+    min-width: 3000px;
+    padding-top: 100px; }
+    #modal .box a.pic-row {
+      height: 200px;
+      width: 70%;
+      text-decoration: none; }
+      #modal .box a.pic-row:nth-of-type(1) {
+        background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/FFOW8C23A0.jpg");
+          background-size: cover;
+          background-position: center; }
+      #modal .box a.pic-row:nth-of-type(2) {
+        background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/H89R9U63TW.jpg");
+          background-size: cover;
+          background-position: center; }
+      #modal .box a.pic-row:nth-of-type(3) {
+        background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/KD8QDZU762.jpg");
+          background-size: cover;
+          background-position: center; }
+      #modal .box a.pic-row:nth-of-type(4) {
+        background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/07Z2HAJFID.jpg");
+          background-size: cover;
+          background-position: center; }
+      #modal .box a.pic-row .overlay {
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.9);
+        -webkit-transition: .5s ease all;
+        -o-transition: .5s ease all;
+        transition: .5s ease all; }
+        #modal .box a.pic-row .overlay:hover {
+          background: rgba(0, 0, 0, 0.5); }
+      #modal .box a.pic-row h1 {
+        color: white;
+        font-family: "Oswald",sans-serif;
+        text-transform: uppercase; }
+    #modal .box h1 {
+      text-transform: capitalize;
+      font-weight: 300; }
+      #modal .box h1 strong {
+        font-weight: bold; }
+    #modal .box #closer {
+      text-transform: uppercase;
+      padding: 20px 70px;
+      background: black;
+      font-family: "oswald",sans-serif;
+      color: white;
+      font-size: 25px;
+      margin-top: 50px;
+      margin-bottom: 60px; }
+      #modal .box #closer:hover {
+        cursor: pointer; }

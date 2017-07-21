@@ -4,10 +4,24 @@ head
   title Home
   link(rel="stylesheet", href="css/master.css")
   <script src="https://use.fontawesome.com/525ca23e8d.js"></script>
-  script(type="text/javascript", src="js/script.js").
     
   
 body
+  #modal.flex.flex--center.align-start
+    .box.flex.flex--center.align-center.columns
+      a.pic-row.flex.posr(href="")
+        .overlay.posa.flex.flex--center.align-center
+          h1 LIVE BANDS
+      a.pic-row.flex.posr(href="")
+        .overlay.posa.flex.flex--center.align-center
+          h1 GARDEN PARTIES
+      a.pic-row.flex.posr(href="")
+        .overlay.posa.flex.flex--center.align-center
+          h1 MAGIC SHOWS
+      a.pic-row.flex.posr(href="")
+        .overlay.posa.flex.flex--center.align-center
+          h1 COOKOUTS
+      span#closer close box
   header.flex.flex--space-around.align-center
     .title-wrap.flex.flex--center.align-center
       h1 3Steps
@@ -28,7 +42,7 @@ body
       h5 introducing
       h1 THE THREE STEPS 
       h4 Handcrafted food and beautifully served drinks
-      a.menu(href="menu.html") Menu
+      a.menu(href="https://docs.wixstatic.com/ugd/f6c242_e1ae1b31e5e84bbdb837a8a84718f06e.pdf", target="_blank") Menu
   section.outflavours.flex.rows.flex--center.align-center.rows
     .img-holder.posr
       .overlay.posa
@@ -36,12 +50,12 @@ body
       h2 Our Flavours!
       h6 Fresh and tasty
       p  At the three steps we cook all of our fresh food to order, though this may take a bit longer, <strong>rest assured</strong>, this is because we take extra care with our customers food. 
-      a.menu(href="menu.html") Menu
+      a.menu(href="https://docs.wixstatic.com/ugd/f6c242_e1ae1b31e5e84bbdb837a8a84718f06e.pdf",target="_blank") Menu
   section.drinks.flex.flex--center.align-center.columns
 
     h4 Enjoy our
     h1 ICE COLD DRINKS
-    a.menu(href="menu.html") Menu
+    a.menu(href="https://docs.wixstatic.com/ugd/f6c242_e1ae1b31e5e84bbdb837a8a84718f06e.pdf", target="_blank") Menu
   section.garden.flex.rows
     .col-1.flex.flex--center.align-center.columns
       h2 our place & garden
@@ -53,8 +67,9 @@ body
     .titler.flex.flex--center.align-center.columns
       h3 Catering and more 
       h1 Events 
-      a.more(href="") VIEW EVENTS
+      span#more.more VIEW EVENTS
   footer.designedBy.flex.flex--center.align-center
     h4 Developed by <a href="http://vyco.co.uk" target="_blank"><span class="logo">vyco</span></a>
+  script(type="text/javascript", src="js/script.js").
       
   

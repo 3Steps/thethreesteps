@@ -3,9 +3,23 @@
   <meta charset="utf-8">
   <title>Home</title>
   <link rel="stylesheet" href="css/master.css"><script src="https://use.fontawesome.com/525ca23e8d.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
+  <div class="flex flex--center align-start" id="modal">
+    <div class="box flex flex--center align-center columns"><a class="pic-row flex posr" href="">
+        <div class="overlay posa flex flex--center align-center">
+          <h1>LIVE BANDS</h1>
+        </div></a><a class="pic-row flex posr" href="">
+        <div class="overlay posa flex flex--center align-center">
+          <h1>GARDEN PARTIES</h1>
+        </div></a><a class="pic-row flex posr" href="">
+        <div class="overlay posa flex flex--center align-center">
+          <h1>MAGIC SHOWS</h1>
+        </div></a><a class="pic-row flex posr" href="">
+        <div class="overlay posa flex flex--center align-center">
+          <h1>COOKOUTS</h1>
+        </div></a><span id="closer">close box</span></div>
+  </div>
   <header class="flex flex--space-around align-center">
     <div class="title-wrap flex flex--center align-center">
       <h1>3Steps</h1>
@@ -19,7 +33,7 @@
     <div class="total flex columns flex--center align-center">
       <h5>introducing</h5>
       <h1>THE THREE STEPS </h1>
-      <h4>Handcrafted food and beautifully served drinks</h4><a class="menu" href="menu.html">Menu</a>
+      <h4>Handcrafted food and beautifully served drinks</h4><a class="menu" href="https://docs.wixstatic.com/ugd/f6c242_e1ae1b31e5e84bbdb837a8a84718f06e.pdf" target="_blank">Menu</a>
     </div>
   </div>
   <section class="outflavours flex rows flex--center align-center rows">
@@ -29,12 +43,12 @@
     <div class="txt flex flex--center align-center columns">
       <h2>Our Flavours!</h2>
       <h6>Fresh and tasty</h6>
-      <p> At the three steps we cook all of our fresh food to order, though this may take a bit longer, <strong>rest assured</strong>, this is because we take extra care with our customers food. </p><a class="menu" href="menu.html">Menu</a>
+      <p> At the three steps we cook all of our fresh food to order, though this may take a bit longer, <strong>rest assured</strong>, this is because we take extra care with our customers food. </p><a class="menu" href="https://docs.wixstatic.com/ugd/f6c242_e1ae1b31e5e84bbdb837a8a84718f06e.pdf" target="_blank">Menu</a>
     </div>
   </section>
   <section class="drinks flex flex--center align-center columns">
     <h4>Enjoy our</h4>
-    <h1>ICE COLD DRINKS</h1><a class="menu" href="menu.html">Menu</a>
+    <h1>ICE COLD DRINKS</h1><a class="menu" href="https://docs.wixstatic.com/ugd/f6c242_e1ae1b31e5e84bbdb837a8a84718f06e.pdf" target="_blank">Menu</a>
   </section>
   <section class="garden flex rows">
     <div class="col-1 flex flex--center align-center columns">
@@ -47,10 +61,11 @@
   <section class="more flex flex--center align-center">
     <div class="titler flex flex--center align-center columns">
       <h3>Catering and more </h3>
-      <h1>Events </h1><a class="more" href="">VIEW EVENTS</a>
+      <h1>Events </h1><span class="more" id="more">VIEW EVENTS</span>
     </div>
   </section>
   <footer class="designedBy flex flex--center align-center">
     <h4>Developed by <a href="http://vyco.co.uk" target="_blank"><span class="logo">vyco</span></a></h4>
   </footer>
+  <script type="text/javascript" src="js/script.js"></script>
 </body>
