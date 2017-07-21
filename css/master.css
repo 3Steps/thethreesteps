@@ -2929,7 +2929,7 @@ nav.global a {
       font-size: 20px; }
 
 section.outflavours {
-  padding: 40px;
+  padding: 0;
   margin: 0; }
   section.outflavours .img-holder {
     background: url("https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?dpr=0.75&auto=format&fit=crop&w=1500&h=1125&q=80&cs=tinysrgb&crop=");
