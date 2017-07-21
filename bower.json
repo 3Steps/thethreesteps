@@ -1,0 +1,17 @@
+{
+  "name": "3Steps",
+  "authors": [
+    "AishaLawal <noBeast21@mail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
