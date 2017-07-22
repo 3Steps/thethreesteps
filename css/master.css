@@ -3257,6 +3257,9 @@ section.enter-site {
 
 section.footer {
   background: black; }
+  section.footer .add p {
+    margin: 0;
+    padding: 10px; }
   section.footer .col {
     margin-left: 300px; }
   section.footer h1, section.footer p {
