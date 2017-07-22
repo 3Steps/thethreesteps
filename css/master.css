@@ -3256,7 +3256,8 @@ section.enter-site {
       cursor: pointer; }
 
 section.footer {
-  background: black; }
+  background: black;
+  padding-top: 60px; }
   section.footer .add p {
     margin: 0;
     padding: 10px; }
