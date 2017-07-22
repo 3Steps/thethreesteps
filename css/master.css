@@ -3198,7 +3198,8 @@ section.more {
         -o-transition: .5s ease all;
         transition: .5s ease all; }
         #modal .box a.pic-row .overlay:hover {
-          background: rgba(0, 0, 0, 0.5); }
+          background: rgba(0, 0, 0, 0.5);
+          cursor: default; }
       #modal .box a.pic-row h1 {
         color: white;
         font-family: "Oswald",sans-serif;
