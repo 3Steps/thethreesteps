@@ -3271,7 +3271,8 @@ section.footer {
   section.footer .col {
     margin-left: 300px; }
   section.footer h1, section.footer p {
-    color: white; }
+    color: white;
+    padding-left: 10px; }
   section.footer p {
     font-size: 20px; }
   section.footer h1 {
