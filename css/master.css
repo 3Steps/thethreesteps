@@ -2779,13 +2779,15 @@ h1, h2, h4, h5 {
 .logo {
   font-family: "Satisfy"; }
 
-.fa {
-  border-radius: 50%;
-  background: black;
-  color: #039DD6;
+i.fa {
+  color: black;
   padding: 10px;
-  color: white;
+  font-size: 20px;
   margin: 10px; }
+
+#toggle {
+  font-size: 20px;
+  letter-spacing: 2px; }
 
 .flex {
   display: -webkit-box;
@@ -2881,13 +2883,27 @@ h1, h2, h4, h5 {
   -ms-flex-pack: justify;
   justify-content: space-between; }
 
-nav.global a {
-  text-decoration: none;
-  color: black;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 15px;
-  margin: 20px; }
+nav.global {
+  padding: 30px; }
+  nav.global a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-right: 70px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 2px;
+    -webkit-transition: .5s ease all;
+    -o-transition: .5s ease all;
+    transition: .5s ease all; }
+    nav.global a:hover {
+      -webkit-transform: translateY(10px);
+      -ms-transform: translateY(10px);
+      transform: translateY(10px); }
 
 .introduction {
   background: #1D164F;
@@ -2933,10 +2949,6 @@ nav.global a {
       text-transform: uppercase;
       letter-spacing: 5px;
       font-size: 20px; }
-
-@media screen and (max-width: 1250px) {
-  .total h1 {
-    font-size: 30px; } }
 
 section.outflavours {
   padding: 0;
@@ -3002,9 +3014,7 @@ section.outflavours {
         border: 3px solid #1D164F; }
 
 section.drinks {
-  background: url("https://www.transparenttextures.com/patterns/food.png");
-    background-color: #e89313;
-    background-attachment: fixed;
+  background-color: #B5E8D5;
   padding: 70px; }
   section.drinks h4 {
     font-size: 40px;
@@ -3019,10 +3029,11 @@ section.drinks {
     font-size: 100px;
     letter-spacing: 10px;
     font-family: "Raleway", sans-serif;
-    padding: 30px;
-    margin: 0; }
+    /* padding: 30px; */
+    margin-top: 35px;
+    margin-bottom: 0px; }
   section.drinks .menu {
-    color: #E89313;
+    color: #B5E8D5;
     background: white;
     text-decoration: none;
     font-family: "Oswald",sans-serif;
@@ -3031,7 +3042,7 @@ section.drinks {
     margin-top: 50px;
     font-weight: bold; }
     section.drinks .menu:visited {
-      color: #E89313; }
+      color: #B5E8D5; }
 
 section.garden .col-1 {
   width: 50%;
@@ -3243,6 +3254,18 @@ section.enter-site {
     text-decoration: none; }
     section.enter-site .button:hover, section.enter-site .menu:hover {
       cursor: pointer; }
+
+section.footer {
+  background: black; }
+  section.footer .col {
+    margin-left: 300px; }
+  section.footer h1, section.footer p {
+    color: white; }
+  section.footer p {
+    font-size: 20px; }
+  section.footer h1 {
+    letter-spacing: 5px;
+    font-size: 30px; }
 
 @media screen and (max-width: 1250px) {
   body .introduction h1 {
