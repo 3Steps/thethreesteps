@@ -2928,6 +2928,10 @@ nav.global a {
       letter-spacing: 5px;
       font-size: 20px; }
 
+@media screen and (max-width: 1250px) {
+  .total h1 {
+    font-size: 30px; } }
+
 section.outflavours {
   padding: 0;
   margin: 0; }
@@ -3124,7 +3128,6 @@ section.more {
   /* Stay in place */
   z-index: 1;
   /* Sit on top */
-  padding-top: 100px;
   /* Location of the box */
   left: 0;
   top: 0;
@@ -3140,11 +3143,10 @@ section.more {
   #modal .box {
     background: white;
     border-radius: 10px;
-    min-width: 3000px;
-    padding-top: 100px; }
+    min-width: 1000px; }
     #modal .box a.pic-row {
       height: 200px;
-      width: 70%;
+      width: 100%;
       text-decoration: none; }
       #modal .box a.pic-row:nth-of-type(1) {
         background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/FFOW8C23A0.jpg");
@@ -3193,3 +3195,7 @@ section.more {
       margin-bottom: 60px; }
       #modal .box #closer:hover {
         cursor: pointer; }
+
+@media screen and (max-width: 1250px) {
+  body .introduction h1 {
+    font-size: 50px; } }
