@@ -3255,6 +3255,12 @@ section.enter-site {
     text-decoration: none; }
     section.enter-site .button:hover, section.enter-site .menu:hover {
       cursor: pointer; }
+      section.enter-site .button:hover .hover, section.enter-site .menu:hover .hover {
+        opacity: 1; }
+  section.enter-site .hover {
+    font-size: 20px;
+    opacity: 0;
+    color: white; }
 
 section.footer {
   background: black;
